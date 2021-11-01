@@ -1,0 +1,207 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.box
+{
+    border: 2px solid;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    color: white;
+}
+
+.box1
+{
+    /* position: absolute; */
+    float: left;
+    /* left: 15%; */
+    width: 33%;
+    height: 120%;
+    /* border: 1px solid hsl(31, 77%, 52%); */
+    border-radius: 10px;
+    background-color: hsl(31, 77%, 52%);
+}
+
+.box1 h1
+{
+    margin-left: -25%;
+    margin-top: 35%;
+    /* position: absolute; */
+    float: left;
+}
+
+.box1 p 
+{
+    margin-top: 0%;
+    margin-left: 12%;
+    /* position: absolute; */
+    float: left;
+    font-size: large;
+}
+
+.btn1
+{
+    float: left;
+    cursor:pointer;
+    /* position: absolute; */
+    bottom: 10%;
+    margin-left: 25%;
+    margin-top: 15%;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    background-color: white;
+}
+
+.box1 img
+{
+    /* position: absolute; */
+    float: left;
+    margin-top: 8%;
+    margin-left:10% ;
+}
+
+
+
+@media screen and  (max-width:1020px)
+{
+    .box1
+    {
+        width: 75%;
+        display: block;
+        margin-bottom: 0px;
+    }
+
+    .box1 h1
+{
+    margin-left: -15%;
+    margin-top: 30%;
+    /* position: absolute; */
+    float: left;
+}
+
+.box1 p 
+{
+    margin-top: 0%;
+    margin-left: 12%;
+    /* position: absolute; */
+    float: left;
+    font-size: large;
+}
+
+.btn1
+{
+    float: left;
+    cursor:pointer;
+    /* position: absolute; */
+    bottom: 10%;
+    margin-left: 35%;
+    margin-top: 15%;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    background-color: white;
+}
+}
+
+
+
+
+/* .box2
+{
+    position: absolute;
+    left: 32%;
+    width: 33%;
+    height: 120%;
+    border: 2.5px solid hsl(184, 100%, 22%);
+    border-radius: 10px;
+    background-color: hsl(184, 100%, 22%);   
+}
+
+.box2 img
+{
+    
+    margin-top: 12%;
+    margin-left:10% ;
+}
+
+.box2 h1
+{
+    left: 12%;
+    position: absolute;
+}
+
+.box2 p 
+{
+    top: 35%;
+    left: 10%;
+    position: absolute;
+    font-size: large;
+}
+
+.btn2
+{
+    cursor:pointer;
+    position: absolute;
+    bottom: 10%;
+    left: 25%;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    background-color: white;
+} */
+
+
+/* .box3
+{
+    position: absolute;
+    left: 65%;
+    width: 33%;
+    height: 120%;
+    border: 2.5px solid hsl(179, 100%, 13%);
+    border-radius: 10px;
+    background-color: hsl(179, 100%, 13%);   
+}
+
+.box3 img
+{
+    margin-top: 12%;
+    margin-left:10% ;
+}
+
+.box3 h1
+{
+    left: 12%;
+    position: absolute;
+}
+
+.box3 p 
+{
+    top: 35%;
+    left: 10%;
+    position: absolute;
+    font-size: large;
+}
+
+.btn3
+{
+    cursor: pointer;
+    position: absolute;
+    bottom: 10%;
+    left: 25%;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    background-color: white; 
+}*/
+
+
+
